@@ -1,10 +1,10 @@
 ![AXIA](./public/AXIA-blue-logo.png)
-# AXIA Block Explorer
+# AXChain Block Explorer
 
 <!-- about the project -->
 ## About The Project
 
-[AXIA Block Explorer] is a minimal block explorer for AXIA Network. It does not use a database, and can be configured to point at any remote RPC node for any EVM-based network. The goal of the Explorer is to provide a resource for network information and block exploration with only an Ethereum EPC endpoint.
+[AXChain Block Explorer] is a minimal block explorer for AXIA Network. It does not use a database, and can be configured to point at any remote RPC node for any EVM-based network. The goal of the Explorer is to provide a resource for network information and block exploration with only an Ethereum EPC endpoint.
 
 Explorer Features:
 - Display chain id

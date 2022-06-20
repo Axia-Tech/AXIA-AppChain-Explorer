@@ -271,7 +271,7 @@ function App(props: any) {
                     </Grid>
                     <Grid>
                       <Typography color="textSecondary" variant="h6">
-                        {t("AXIA Block Explorer")}
+                        {t("AXChain Explorer")}
                       </Typography>
                     </Grid>
                   </Grid>
@@ -339,6 +339,7 @@ function App(props: any) {
                     <NotesIcon />
                   </IconButton>
                 </Tooltip>
+               {/* 
                 <Tooltip title={t("AXIA Explorer Github") as string}>
                   <IconButton
                     onClick={() =>
@@ -348,6 +349,8 @@ function App(props: any) {
                     <CodeIcon />
                   </IconButton>
                 </Tooltip>
+                */}
+                
                 <Tooltip title={t("Toggle Dark Mode") as string}>
                   <IconButton onClick={darkMode.toggle}>
                     {darkMode.value ? <Brightness3Icon /> : <WbSunnyIcon />}

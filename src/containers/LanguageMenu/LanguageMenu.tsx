@@ -23,6 +23,7 @@ const LanguageMenu: React.FC = (props) => {
 
   return (
     <>
+    {/*
       <Tooltip title={t("Change Language") as string}>
         <Button onClick={handleClick}>{supportedLanguages[i18n.language]}</Button>
       </Tooltip>
@@ -37,6 +38,7 @@ const LanguageMenu: React.FC = (props) => {
           <MenuItem onClick={(event) => handleMenuItemClick(lang)}>{lang}</MenuItem>
         ))}
       </Menu>
+      */}
     </>
   );
 };
