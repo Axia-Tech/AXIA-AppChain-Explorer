@@ -10,7 +10,7 @@ export default function() {
     {
       name: "AXIA",
       network: "testnet",
-      rpc: ["https://1.p2p-v2.testnet.axiacoin.network"],
+      rpc: ["https://1.p2p-v2.testnet.axiacoin.network/ext/bc/AX/rpc"],
     },
   ]);
 
